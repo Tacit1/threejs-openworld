@@ -84,4 +84,26 @@ function animate(){
 
 }
 
+
+document.onkeydown = (e) => {
+
+  if(e.key === 'w' || e.key === 'W'){
+    moon.position.z -= 0.5;
+  }
+  
+  if(e.key === 's' || e.key === 'S'){
+    moon.position.z += 0.5;
+  }
+  
+  if(e.key === 'a' || e.key === 'A'){
+    moon.position.x += -0.5;
+  }
+
+  if(e.key === 'd' || e.key === 'D'){
+    moon.position.x += +0.5;
+  }
+
+}
+
+
 animate();
