@@ -1,6 +1,6 @@
 # Threejs-OpenWorld
 
-project setup
+### project setup
 
 run the following command to install dependencies
 
